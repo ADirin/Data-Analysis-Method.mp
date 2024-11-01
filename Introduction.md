@@ -53,17 +53,23 @@ Validating predictions from a machine learning model is crucial to assess its ef
   - Precision, Recall, and F1-Score: Especially useful in imbalanced datasets.
   - ROC-AUC Curve: Measures the trade-off between true positive and false positive rates.
 
-Regression Models:
-Mean Absolute Error (MAE), Mean Squared Error (MSE), or Root Mean Squared Error (RMSE): These metrics provide insights into the average error magnitude.
-R-squared: Shows the proportion of variance in the dependent variable captured by the model.
+  - Regression Models:
+    
+  - Mean Absolute Error (MAE), Mean Squared Error (MSE), or Root Mean Squared Error (RMSE): These metrics provide insights into the average error magnitude.
+  - R-squared: Shows the proportion of variance in the dependent variable captured by the model.
+
 4. Confusion Matrix (for Classification Models)
-Method: Create a confusion matrix to display true positives, true negatives, false positives, and false negatives.
-Goal: Provides a visual of model performance across different classes and helps to detect biases or misclassifications.
+
+*Method:* Create a confusion matrix to display true positives, true negatives, false positives, and false negatives.
+*Goal:* Provides a visual of model performance across different classes and helps to detect biases or misclassifications.
+
 5. Hold-Out Validation / Leave-One-Out Validation
-Method: Set aside a separate dataset for final validation, which is not used during training or tuning. For small datasets, leave-one-out validation may be appropriate.
-Goal: This ensures an unbiased evaluation after model tuning and is often used in critical applications (like medical data predictions).
+
+*Method:* Set aside a separate dataset for final validation, which is not used during training or tuning. For small datasets, leave-one-out validation may be appropriate.
+*Goal:* This ensures an unbiased evaluation after model tuning and is often used in critical applications (like medical data predictions).
+
 6. Bootstrapping
-Method: Randomly sample subsets (with replacement) from the training data, train the model on each subset, and validate on the remaining samples.
+*Method:* Randomly sample subsets (with replacement) from the training data, train the model on each subset, and validate on the remaining samples.
 -------------------------------------------------------------------------
 
 # Web page:
